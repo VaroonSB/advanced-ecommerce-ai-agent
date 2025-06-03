@@ -29,15 +29,15 @@ export default function RootLayout({
                 MyStore
               </Link>
               <div>
-                <a href="/products" className="px-3 hover:text-gray-300">
+                <Link href="/products" className="px-3 hover:text-gray-300">
                   Products
-                </a>
-                <a href="/sale" className="px-3 hover:text-gray-300">
+                </Link>
+                <Link href="/sale" className="px-3 hover:text-gray-300">
                   Sale
-                </a>
-                <a href="/cart" className="px-3 hover:text-gray-300">
+                </Link>
+                <Link href="/cart" className="px-3 hover:text-gray-300">
                   Cart
-                </a>
+                </Link>
               </div>
             </nav>
           </header>
